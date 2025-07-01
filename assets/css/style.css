@@ -576,7 +576,7 @@ section{
 
 .projects-item{
     border: 3px solid var(--main-color);
-    min-height: 250px;
+    min-height: 240px;
     max-width: 450px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -589,7 +589,7 @@ section{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 2.1rem;
 }
 /* end projects */
 
@@ -829,7 +829,7 @@ section{
 
     .home-content h3:nth-of-type(2){
     margin-bottom: 3rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
     .home-circle1{
@@ -887,6 +887,10 @@ section{
         border: none;
         border: 25px solid #ff2856;
     }
+
+    .projects-item{
+    min-height: 220px;
+}
 
     .skills h2{
         margin-bottom: 3rem;
