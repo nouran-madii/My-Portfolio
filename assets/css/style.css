@@ -576,8 +576,8 @@ section{
 
 .projects-item{
     border: 3px solid var(--main-color);
-    min-height: 240px;
-    max-width: 450px;
+    min-height: 290px;
+    max-width: 30.6rem;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -585,11 +585,25 @@ section{
     -o-border-radius: 10px;
 }
 
+.projects-item .project-content{
+    padding:10px 15px 0;
+}
+
+.projects-item .project-content h3{
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+
+.projects-item .project-content p{
+    font-size: 13px;
+    color: #626262;
+}
+
 .projects-item .btns{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 2.1rem;
+    margin-top: 1.8rem;
 }
 /* end projects */
 
@@ -889,7 +903,7 @@ section{
     }
 
     .projects-item{
-    min-height: 220px;
+    min-height: 280px;
 }
 
     .skills h2{
