@@ -12,10 +12,10 @@
 
 :root{
     --bg-color: #fcfcfc;
-    --second-bg-color: #fff4f4;
+    --second-bg-color: #e2ebeb;
     --text-color: #000;
     --second-text-color: #fff;
-    --main-color: #fe1d4e;
+    --main-color: #47b3bd;
 
     --transition: 0.3s ease;
 }
@@ -120,7 +120,8 @@ section{
 
 .home-circle2{
     position: absolute;
-    background-color: #ff2856;
+    /* background-color: #ff2856; */
+    background-color: #3999a2;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -265,7 +266,7 @@ section{
     border-left: 2px solid #f1f1f1;
     right: -8px;
     animation: cursor 0.6s infinite;
-    -webkit-animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+    -webkit-animation: cursor 0.6s infinite, typing 20s steps(15) infinite;
 }
 
 @keyframes cursor {
@@ -275,45 +276,31 @@ section{
 }
 
 @keyframes words{
-    0%, 20%{
-        content: 'Web Designer';
+    0%, 16.66% {
+        content: 'Robotics Instructor';
     }
-    21%, 40%{
+    16.67%, 33.33%{
         content: 'Frontend Developer';
     }
-    41%, 60%{
+    33.34%, 50%{
         content: 'Web Designer';
     }
-    61%, 80%{
+    50.01%, 66.66%{
+        content: 'Robotics Instructor';
+    }
+    66.67%, 83.33%{
         content: 'Frontend Developer';
     }
-    81%, 100%{
+    83.34%, 100%{
         content: 'Web Designer';
     }
 }
 
 @keyframes typing {
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95%{
+    8.33%, 25%, 41.66%, 58.33%, 75%, 91.66%{
         width: 0;
     }
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85%{
+    0%, 16.66%, 33.33%, 50%, 66.66%, 83.33%, 100%{
         width: calc(100% + 8px);
     }
 }
@@ -405,6 +392,12 @@ section{
 }
 /* end about */
 
+/* start experience */
+#experience{
+    min-height: 50vh !important;
+}
+/* end experience */
+
 /* start education & courses */
 .timeline-section{
     min-height: 100vh;
@@ -473,7 +466,7 @@ section{
 
 .timeline-date{
     font-size: 1.25rem;
-    font-weight: 800;
+    font-weight: 600;
     color: var(--second-text-color);
     margin: 6px 0 12px;
 }
@@ -513,7 +506,7 @@ section{
 
 .timeline-content p{
     color: var(--second-text-color);
-    opacity: 0.8;
+    opacity: 0.9;
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.375rem;
@@ -656,6 +649,10 @@ section{
 
 .skill-box i{
     font-size: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-box svg{
     margin-bottom: 1.5rem;
 }
 
@@ -888,7 +885,7 @@ section{
     }
 
     .about-content{
-        margin: 1rem 4rem;
+        margin: 1rem 4rem 5rem;
     }
 
     .about-img{
@@ -899,7 +896,7 @@ section{
         width: 70vw;
         margin-block: 1rem 3rem;
         border: none;
-        border: 25px solid #ff2856;
+        border: 25px solid #3999a2;
     }
 
     .projects-item{
