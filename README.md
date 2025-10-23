@@ -9,6 +9,7 @@ This is my personal portfolio website showcasing my skills, projects, and contac
 - Responsive and clean design
 - Sections for:
   - About Me
+  - Experience
   - Education 
   - Projects
   - Skills
