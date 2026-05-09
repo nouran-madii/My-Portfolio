@@ -10,7 +10,8 @@ This is my personal portfolio website showcasing my skills, projects, and contac
 - Sections for:
   - About Me
   - Experience
-  - Education 
+  - Education
+  - Events 
   - Projects
   - Skills
   - Contact Form
