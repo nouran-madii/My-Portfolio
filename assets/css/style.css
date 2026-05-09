@@ -909,6 +909,10 @@ section{
         margin-bottom: 3rem;
     }
 
+    .skills-container .skill-box{
+        flex: 1 1 15rem;
+    }
+
     .timeline-items::before{
         left: 7px;
     }
