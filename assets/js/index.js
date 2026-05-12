@@ -35,7 +35,7 @@ menuIcon.onclick = () => {
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_eztyy8t', 'template_fjrsrmh', this)
+    emailjs.sendForm('service_1hp40kj', 'template_fjrsrmh', this)
     .then(function() {
         alert('Message sent successfully!');
         document.getElementById('contactForm').reset();
